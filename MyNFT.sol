@@ -63,7 +63,7 @@ contract MyNFT is ERC721URIStorage {
                 abi.encodePacked(
                     '{"name": "',
                     combinedWord,
-                    '", "description": "A highly acclaimed collection of squares.", "image": "data:image/svg+xml;base64,',
+                    '", "description": "3 Random words concatenated together.", "image": "data:image/svg+xml;base64,',
                     Base64.encode(bytes(finalSvg)),
                     '"}'
                 )
